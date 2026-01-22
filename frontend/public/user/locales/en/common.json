@@ -1,0 +1,472 @@
+{
+    "welcome": "Welcome",
+    "login": "Login",
+    "logout": "Logout",
+    "language": "Language",
+    "openMainMenu": "Open main menu",
+    "viewNotifications": "View notifications",
+    "loginAsAdmin": "Admin Login",
+    "home": "Home",
+    "services": "Services",
+    "ourServices": "Our Services",
+    "comprehensiveSolution": "Comprehensive Real Estate Solutions",
+    "featured": "Featured",
+    "all": "All",
+    "exclusive": "Exclusive",
+    "emerging": "Emerging",
+    "latest": "Latest",
+
+    "rent":"Rent",
+    "sale": "Sale",
+
+    "about": "About",
+    "tools": "Tools",
+    "findYourDreamHome": "Find Your Dream Home",
+    "getStarted": "Get Started",
+    "exploreTheBestPropertiesInYourAreaWithUsTrustedByThousandsOfHappyHomeowners": "Explore the best properties in your area with us. Trusted by thousands of happy homeowners.",
+    "contact": "Contact",
+    "search": "Search",
+    "sortBy": "Sort by",
+    "forSale": "For Sale",
+    "forRent": "For Rent",
+    "space": "Spaces",
+    "house": "Houses",
+    "land": "Land",
+    "flat": "Flats",
+    "properties": "Properties",
+    "lessThan1Crore": "Less than 1 crore",
+    "1CroreTo2Crores": "1 crore to 2 crores",
+    "2CroresTo3Crores": "2 crores to 3 crores",
+    "3CroresTo4Crores": "3 crores to 4 crores",
+    "4CroresTo6Crores": "4 crores to 6 crores",
+    "6CroresTo10Crores": "6 crores to 10 crores",
+    "above10Crores": "Above 10 crores",
+    "submit": "Submit",
+    "searchByCode": "Search by code",
+    "enterpropertyCode": "Enter property code",
+    "propertyCode": "Property Code",
+    "type": "Type",
+    "location": "Location",
+    "price": "Price",
+    "propertyDetails": "Property Details",
+    "apartmentDetails": "Apartment Details",
+    "spaceDetails": "Space Details",
+    "flatDetails": "Flat Details",
+    "interiorDetails": "Interior Details",
+    "propertyInterior": "Property Interior Details",
+    "priceHighToLow": "Price - High to Low",
+    "priceLowToHigh": "Price - Low to High",
+    "dateNewToOld": "Date - New to Old",
+    "dateOldToNew": "Date - Old to New",
+    "featuredProperties": "Featured Properties",
+    "latestProperties": "Latest Properties",
+    "emergingProperties": "Emerging Properties",
+    "exclusiveProperties": "Exclusive Properties",
+    "availableProperties": "Available Properties",
+    "bookThisProperty": "Book this property",
+    "viewTheFeaturedProperties": "View the featured properties",
+    "viewTheExclusiveProperties": "View the exclusive properties",
+    "viewTheEmergingProperties": "View the emerging properties",
+    "viewTheLatestProperties": "View the latest properties",
+    "propertyListingServices": "Property Listing Services",
+    "readyToList": "Ready to list your property?",
+    "viewAll": "View All",
+    "errorFetchingPosts": "Error fetching posts",
+    "viewAllProperties": "View All Properties",
+    "listYourProperty": "List Your Property With Us",
+    "information": "Information",
+    "requestForm": "Request Form",
+    "for": "for",
+    "in": "in",
+    "road": "road",
+    "area": "area",
+    "Area": "Area",
+    "desc": "Description",
+    "landDetails": "Land Details",
+    "exploreByCategory": "Explore by Category",
+    "listings": "Listings",
+    "previous": "Previous",
+    "next": "Next",
+    "filters": "Other Filters",
+    "rs": "Rs",
+    "overview": "Overview",
+    "landId": "Land ID",
+    "propertyId": "Property ID",
+    "facilities": "Facilities",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "phoneNumber": "Phone Number",
+    "message": "Message",
+    "bookingDate": "Booking Date",
+    "enterCredentials": " Enter your credentials to access the admin panel",
+    "forgotPassword": "Forgot Password?",
+    "signIn": "Sign In",
+    "adminDashboard": "Admin Dashboard",
+    "weeklySales": "Weekly Sales",
+    "listingByCategory": "Listing by Category",
+    "listingStatus": "Listing Status",
+    "monthlyViews": "Monthly Views",
+    "myListings": "My Listings",
+    "addProperty": "Add Property",
+    "filter": "Filter",
+    "noPropertiesFound": "No properties found",
+    "selectPropertyType": "Choose Property Type",
+    "selectTypeToProceed": "Select a category below to proceed with the property form.",
+    "defaultOrder": "Default order",
+    "otherFilters": "Other Filters",
+    "propertyType": "Property Type",
+    "priceRange": "Price Range",
+    "propertyStatus": "Property Status",
+    "selectPropertyStatus": "Select a property status",
+    "selectLocation": "Select a property location",
+    "applyFilters": "Apply Filters",
+    "clear": "Clear",
+    "enterPropertyCode": "Enter the Property code",
+    "district": "District",
+    "municipality": "Municipality",
+    "selectDistrict": "Select District",
+    "selectMunicipality": "Select Municipality",
+    "unitConverter": "Unit Converter",
+    "dateConverter": "Date Converter",
+    "emiCalculator": "EMI Calculator",
+    "learnMore": "Learn More",
+    "apartmentId": "Apartment ID",
+    "landType": "Land Type",
+    "listedYear": "Listed Year",
+    "trustedRealEstate": "Trusted Real Estate",
+    "houseFacilities": {
+      "yearBuilt": "Year Built",
+      "roadAccess": "Road Access",
+      "propertyArea": "Property Area",
+      "builtUpArea": "Built-up Area",
+      "datePosted": "Date Posted",
+      "pricing": "Pricing"
+    },
+    "landFacilities": {
+      "facing": "Facing",
+      "purpose": "Purpose",
+      "landArea": "Land Area",
+      "price": "Price",
+      "status": "Status"
+    },
+  "apartmentProperty": {
+    "features": {
+      "bhk": "BHK",
+      "built_area": "Built Area",
+      "floor": "Floor",
+      "furnished_type": "Furnished Type",
+      "built_year": "Built Year"
+    },
+    "details": {
+      "apartment_id": "Apartment ID",
+      "property_face": "Property Face",
+      "total_floors": "Total Floors",
+      "total_area": "Total Area",
+      "built_up_area": "Built Up Area",
+      "date_posted": "Date Posted",
+      "price": "Price",
+      "status": "Status",
+      "purpose": "Purpose",
+      "road_access": "Road Access"
+    }
+  },
+  "listedFlat": {
+    "features": {
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "built_area": "Built in Area",
+      "floor_number": "Floor Number",
+      "built_year": "Built Year",
+      "flat_type": "Flat Type"
+    },
+    "details": {
+      "flat_id": "Flat ID",
+      "facing": "Facing",
+      "total_floors": "Total Floors",
+      "purpose": "Purpose",
+      "total_area": "Total Area",
+      "built_up_area": "Built Up Area",
+      "date_posted": "Date Posted",
+      "price": "Price",
+      "status": "Status"
+    }
+  },
+"spaceListing": {
+    "features": {
+      "area": "Area",
+      "frontage": "Frontage",
+      "floor_number": "Floor Number",
+      "built_year": "Built Year"
+    },
+    "details": {
+      "space_id": "Space ID",
+      "facing": "Facing",
+      "purpose": "Purpose",
+      "floor": "Floor",
+      "access_road": "Access Road",
+      "total_area": "Total Area",
+      "rent_per_month": "Rent/Month",
+      "date_listed": "Date Listed",
+      "status": "Status"
+    }
+  },
+  "enum": {
+    "type": {
+      "land": "Land",
+      "house": "House",
+      "apartment": "Apartment",
+      "flat": "Flat",
+      "space": "Space"
+    },
+    "status": {
+      "exclusive": "Exclusive",
+      "featured": "Featured",
+      "emerging": "Emerging",
+      "latest": "Latest"
+    },
+"purpose": {
+  "label": "Purpose",
+  "selectPurpose": "Select purpose",
+  "sale": "For Sale",
+  "rent": "For Rent"
+}
+
+,
+  "unit": {
+    "sqft": "sqft",
+    "ft": "ft",
+    "m": "m",
+    "km": "km",
+    "sqm": "sqm",
+    "katha": "Katha",
+    "aana": "Aana",
+    "bigha": "Bigha",
+    "dhur": "Dhur",
+    "paisa": "Paisa",
+    "daam": "Daam",
+    "ropani": "Ropani"
+  },
+  "facilities":{
+     "water supply": "Water Supply",
+  "drainage": "Drainage",
+  "electricity": "Electricity",
+  "internet": "Internet",
+  "parking": "Parking",
+  "security": "Security",
+  "garden": "Garden",
+  "swimming pool": "Swimming Pool",
+  "gym": "Gym",
+  "elevator": "Elevator"
+  },
+  "facing": {
+    "north": "North",
+    "south": "South",
+    "east": "East",
+    "west": "West",
+    "north east": "North-East",
+    "north west": "North-West",
+    "south east": "South-East",
+    "south west": "South-West"
+  },
+  "intPropertyDetails": {
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "livingRooms": "Living Rooms",
+    "furnishing": "Furnishing",
+    "parking": "Parking"
+  },
+"full":"Full-Furnished",
+"semi":"Semi-Furnished",
+"unfurnished":"Unfurnished",
+
+
+
+  "getStartedWithParagraph":"  Get your property in front of thousands of potential buyers and renters. Our professional team will help you every step of the way.",
+  "listYourPropertyWithUs": "List Your Property" ,
+  "joinThousandsOwners": "Join thousands of satisfied property owners",
+  "professionalPhoto": "Professional Photography",
+  "highQualityPhotos": "High-quality photos to showcase your property",
+  "marketAnalysis": "Market Analysis",
+  "competitivePricing": "Competitive pricing based on market trends",
+  "wideExposure": "Wide Exposure",
+  "listedOnMultiplePlatforms": "Listed on multiple platforms and networks",
+  "expertSupport": "Expert Support",
+  "dedicatedTeam": "Dedicated agent to handel all inquiries",
+  "requestNow": "Request Now",
+  "submitRequest": "Submit Your Request",
+  "fillOutTheForm": " Fill out the form below and we'll get back to you within 24 hours",
+  "requestSuccess": " Request Submitted Successfully!",
+  "aVerifyEmail": "A verification email has been sent to",
+  "checkYourEmail": " Please check your inbox and click the verification link.",
+  "resending": "Resending...",
+  "resendAvailable": "Resend available in:",
+  "resendLink": "Resend Verification Email",
+  "serviceParagraph":"From property brokerage to construction support, we provide end-to-end real estate services tailored to your needs with professional expertise and personalized attention.",
+  "stats": {
+    "happyClients": "Happy Clients",
+    "propertiesSold": "Properties Sold",
+    "yearsExperience": "Years Experience",
+    "satisfactionRate": "Satisfaction Rate"
+  },
+  "Services": {
+    "brokerage": {
+      "title": "Real Estate Brokerage",
+      "description": "Professional property buying, selling, and rental services with expert market knowledge.",
+      "features": [
+        "Property listing and marketing",
+        "Buyer and seller representation",
+        "Market analysis and pricing",
+        "Negotiation expertise",
+        "Legal documentation support",
+        "Post-transaction assistance"
+      ]
+    },
+    "loan": {
+      "title": "Loan Assistance",
+      "description": "Comprehensive financing solutions to help you secure the best mortgage deals.",
+      "features": [
+        "Pre-approval assistance",
+        "Loan comparison and selection",
+        "Documentation preparation",
+        "Banking partner network",
+        "Interest rate negotiation",
+        "Fast approval process"
+      ]
+    },
+    "valuation": {
+      "title": "Property Valuation",
+      "description": "Accurate property assessments for informed investment decisions.",
+      "features": [
+        "Market-based valuation",
+        "Comparative market analysis",
+        "Investment potential assessment",
+        "Detailed valuation reports",
+        "Legal compliance verification",
+        "Regular market updates"
+      ]
+    },
+    "construction": {
+      "title": "Construction Support",
+      "description": "End-to-end construction management and consulting services.",
+      "features": [
+        "Project planning and design",
+        "Contractor network access",
+        "Quality assurance monitoring",
+        "Timeline and budget management",
+        "Permit and approval assistance",
+        "Post-construction support"
+      ]
+    }
+  },
+  "readyToGetStarted": "Ready to get started?",
+  "getStartedWithUs": "Contact our team of experts today and let us help you achieve your real estate goals with our comprehensive range of professional services.",
+  "browseProperties": "Browse Properties",
+  "learnMoreAboutUs": "Learn More About Us",
+  "aboutDhanaShree": "About DhanaShree Real Estate",
+  "aboutHeading":"Building Dreams, Creating Futures",
+  "aboutParagraph":" For over 15 years, Dhanashree Real Estate has been a trusted partner in helping people find their perfect properties and make sound real estate investments across Nepal.",
+  
+  "achievements": {
+    "propertiesSold": "Properties Sold",
+    "happyClients": "Happy Clients",
+    "yearsExperience": "Years Experience",
+    "locationsCovered": "Locations Covered"
+  },
+
+  "companyValues": {
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide exceptional real estate services that exceed client expectations while building lasting relationships based on trust, integrity, and professional excellence."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading real estate company in Nepal, known for innovation, reliability, and creating value for all stakeholders in the property market."
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "Integrity, transparency, customer-centricity, and continuous improvement guide every decision we make and every service we provide."
+    }
+  },
+  "meetExpertTeam": "Meet Our Expert Team",
+  "teamDescription": "Our dedicated professionals bring years of experience and local market expertise to help you achieve your real estate goals.",
+  "team": {
+    "john": {
+      "position": "Founder & CEO",
+      "bio": "With over 15 years in real estate, John founded Dhanashree with a vision to revolutionize property services in Nepal.",
+      "specialties": ["Strategic Planning", "Market Analysis", "Investment Advisory"]
+    },
+    "jane": {
+      "position": "Head of Sales",
+      "bio": "Jane leads our sales team with expertise in luxury properties and commercial real estate transactions.",
+      "specialties": ["Luxury Properties", "Commercial Sales", "Client Relations"]
+    },
+    "mike": {
+      "position": "Property Consultant",
+      "bio": "Mike specializes in residential properties and helps families find their perfect homes.",
+      "specialties": ["Residential Properties", "First-time Buyers", "Investment Properties"]
+    },
+    "sarah": {
+      "position": "Marketing Director",
+      "bio": "Sarah oversees all marketing initiatives and digital presence for our properties.",
+      "specialties": ["Digital Marketing", "Property Photography", "Brand Strategy"]
+    },
+    "specialtiesLabel": "Specialties:"
+  },
+  "ourStory": {
+    "heading": "Our Story",
+    "paragraphs": [
+      "Founded in 2008, Dhanashree Real Estate began as a small family business with a simple mission: to help people find their perfect homes. What started with just two people and a handful of properties has grown into one of Nepal's most trusted real estate companies.",
+      "Over the years, we've adapted to changing markets, embraced new technologies, and expanded our services to meet the evolving needs of our clients. From residential sales to commercial investments, property management to construction support, we've built a comprehensive platform that serves every aspect of the real estate journey.",
+      "Today, we're proud to have helped over 1,000 families find their dream homes and assisted countless investors in building their property portfolios. Our success is measured not just in transactions closed, but in the relationships we've built and the trust our clients place in us."
+    ]
+  },
+  "contactSection": {
+    "title": "Ready to Work With Us?",
+    "description": "Whether you're buying, selling, or investing in real estate, our experienced team is here to guide you every step of the way.",
+    "callUs": "Call Us Now",
+    "sendEmail": "Send Email"
+  },
+  "UnitConverter": "Unit Converter",
+  "convertDescription": "Convert land area measurements between Ropani, Bigha, and International systems with precision",
+
+  "ropaniSystem": "Ropani System",
+  "bighaSystem": "Bigha System",
+  "internationalSystem": "International System",
+
+  "ropani": "Ropani",
+  "aana": "Aana",
+  "paisa": "Paisa",
+  "dam": "Dam",
+
+  "bigha": "Bigha",
+  "katha": "Katha",
+  "dhur": "Dhur",
+
+  "sqFeet": "Square Feet",
+  "sqMeter": "Square Meter",
+
+  "conversionReference": "Conversion Reference",
+  "ropaniRef": "Ropani System",
+  "bighaRef": "Bigha System",
+  "intlRef": "International",
+
+  "1ropani": "1 Ropani = 16 Aana",
+  "1aana": "1 Aana = 4 Paisa",
+  "1paisa": "1 Paisa = 4 Dam",
+  "1ropaniSqft": "1 Ropani = 5,476 sq ft",
+
+  "1bigha": "1 Bigha = 20 Katha",
+  "1katha": "1 Katha = 20 Dhur",
+  "1bighaSqft": "1 Bigha = 72,900 sq ft",
+  "1kathaSqft": "1 Katha = 3,645 sq ft",
+
+  "1sqMeter": "1 Sq Meter = 10.764 sq ft",
+  "1acre": "1 Acre = 43,560 sq ft",
+  "1hectare": "1 Hectare = 107,640 sq ft",
+  "ropaniToAcre": "1 Ropani ≈ 0.13 Acre"
+
+}
+}
+  
+
+  
