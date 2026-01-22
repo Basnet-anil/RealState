@@ -1,0 +1,15 @@
+tags:
+  - name: 'Overview'
+    description: 'Overview endpoints (no authentication required)'
+
+paths:
+  /overview/dashboard:
+    get:
+      summary: 'Get overview dashboard statistics'
+      tags:
+        - Overview
+      responses:
+        '200':
+          $ref: '#/components/responses/SuccessResponse'
+        '500':
+          $ref: '#/components/responses/InternalServerErrorResponse'

@@ -1,0 +1,153 @@
+tags:
+  - name: 'Image'
+    description: 'Endpoints related to Image uploads'
+paths:
+  /image:
+    post:
+      tags:
+        - Image
+      summary: Upload images
+      description: >
+        Upload a thumbnail and multiple images. Only accessible to users with the `ADMIN` role.
+        Only JPG and PNG file types are allowed.
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                thumbnail:
+                  type: string
+                  format: binary
+                  description: Single thumbnail image (JPG/PNG)
+                images:
+                  type: array
+                  items:
+                    type: string
+                    format: binary
+                  description: Array of up to 10 normal images (JPG/PNG)
+            encoding:
+              thumbnail:
+                contentType: image/jpeg, image/png
+              images:
+                contentType: image/jpeg, image/png
+      responses:
+        '201':
+          description: Images uploaded successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  message:
+                    type: string
+                    example: Images uploaded successfully
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          format: uuid
+                          example: 'a9fef3e0-1234-4efb-8b67-847b4e0fa6a3'
+                        url:
+                          type: string
+                          example: 'https://res.cloudinary.com/demo/image/upload/v12345678/sample.jpg'
+                        type:
+                          type: string
+                          enum: [thumbnail, normal]
+                          example: normal
+        '400':
+          $ref: '#/components/responses/BadRequestResponse'
+        '500':
+          $ref: '#/components/responses/InternalServerErrorResponse'
+/image/{propertyId}:
+  patch:
+    tags:
+      - Image
+    summary: Update property images (Admin only)
+    description: >
+      Allows an admin to update images of a property. You can replace the thumbnail, add new normal images, and delete existing normal images.
+      **Note:** You must retain at least 3 normal images and cannot delete the thumbnail.
+    security:
+      - bearerAuth: []
+    parameters:
+      - name: propertyId
+        in: path
+        required: true
+        schema:
+          type: string
+          format: uuid
+        description: The UUID of the property to update images for
+    requestBody:
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              thumbnailImageId:
+                type: string
+                format: uuid
+                description: ID of the new thumbnail image (optional, replaces old one)
+                example: 'a1f3f22e-9b23-4f02-8c89-90e21d7d1234'
+              normalImageIds:
+                type: array
+                description: Array of new normal image IDs to add
+                items:
+                  type: string
+                  format: uuid
+                example:
+                  ['c9e57c41-1fc4-4b25-9015-d22bdaf9a7ac', '5e55c244-d12c-4b5f-9406-31b7e5e0e999']
+              deletedImageIds:
+                type: array
+                description: Array of existing image IDs to delete (must be normal images)
+                items:
+                  type: string
+                  format: uuid
+                example: ['7f34b8e3-10b1-4f77-b99e-882ac31f4fdd']
+    responses:
+      '200':
+        description: Property images updated successfully
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                success:
+                  type: boolean
+                  example: true
+                message:
+                  type: string
+                  example: Images updated
+                data:
+                  type: object
+                  properties:
+                    propertyId:
+                      type: string
+                      format: uuid
+                      example: '8a91cf2d-7390-4c4f-9125-2b8ec0f14a09'
+                    updatedImages:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          url:
+                            type: string
+                          type:
+                            type: string
+                            enum: [thumbnail, normal]
+      '400':
+        $ref: '#/components/responses/BadRequestResponse'
+      '500':
+        $ref: '#/components/responses/InternalServerErrorResponse'
